@@ -1,0 +1,11 @@
+{
+  "ID": "ID",
+  "Name": "NAME",
+  "Address": "127.0.0.1",
+  "Port": 3001,
+  "check": {
+    "script": "curl 127.0.0.1:3001 > /dev/null 2>&1",
+    "interval": "10s"
+  },
+  "Tags": ["v0.0.1", "v0-0-1"]
+}
